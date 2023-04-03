@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.moinul</groupId>
-    <artifactId>user-crud</artifactId>
+    <artifactId>kid-wise</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>user-crud</name>
-    <description>crud user project for Spring Boot</description>
+    <name>kid-wise</name>
+    <description>kid wise project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>

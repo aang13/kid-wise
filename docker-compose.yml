@@ -1,0 +1,8 @@
+version: '3'
+services:
+  kid-wise:
+    build: .
+    ports:
+      - "8080:8080"
+volumes:
+  db_data:

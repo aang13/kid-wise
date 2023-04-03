@@ -1,0 +1,29 @@
+# Ignore target directory
+target/
+
+# Ignore Eclipse and IntelliJ IDEA files
+.classpath
+.project
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Maven build files
+mvnw
+mvnw.cmd
+mvn/
+*.jar
+*.war
+*.ear
+
+# Ignore Gradle build files
+.gradle/
+build/
+*.jar
+*.war
+*.ear
+
+# Ignore Spring Boot configuration files
+application.properties
+application.yml

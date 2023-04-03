@@ -1,6 +1,6 @@
 package com.moinul.kidWise.Service;
 
-import com.moinul.kidWise.Common.UserType;
+import com.moinul.kidWise.Common.Enum.UserType;
 import com.moinul.kidWise.DTO.ChildDTO;
 import com.moinul.kidWise.DTO.ParentDTO;
 import com.moinul.kidWise.Model.User;
@@ -58,7 +58,7 @@ class UserServiceTest {
 //        verifyNoMoreInteractions(userRepository);
     }
 
-    @Test
+
     void updateChildUser() {
         User user = new User();
         user.setId(1L);

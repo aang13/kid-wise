@@ -17,3 +17,24 @@ Here are the list of apis.
 
 **Database**\
 H2 database: in memory database for spring boot application.Note that the in-memory database is volatile, and data will be lost when we restart the application.
+
+**Dockarize the application**\
+create an executable jar file:\
+`mvn clean package`
+
+start up the Spring Boot application:\
+
+`java -jar target/kid-wise-0.0.1-SNAPSHOT.jar`
+
+Create Docker image from docker file:\
+`docker build --tag=kid-wise:latest .`
+
+Run the docker image:\
+`docker run -p8080:8080 kid-wise:latest`
+
+Using Docker-compose:\
+Build: `docker-compose build` \
+Run: `docker-compose up -d` \
+Stop: `docker-compose down`
+
+

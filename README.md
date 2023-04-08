@@ -1,3 +1,16 @@
+**Overview:**
+This webapp allows creating Lesson plan for children by their parents. It's of great use to the parents who work outside home to monitor, assess their children's study progress.
+Types of Users:
+1. Parent User
+2. Children User
+
+Flow of action:
+1. Parent users can create profile for children user.
+2. Parent user can create lesson plan for their children.
+3. Creating a lesson plan includes creating Standard -> creating Subject -> creating Chapters-> Creating lessons -> creating topics.
+4. Parents can add quiz, exams for their children as well.
+
+
 **Requirements**\
 for building and running the application you need:\
 JDK 11\
